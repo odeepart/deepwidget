@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Deep Widget</string>
+    <string name="deep_widget_name">Deep Widget · Ảnh PNG</string>
+    <string name="deep_widget_description">Hiển thị ảnh PNG với nền trong suốt trên màn hình chính</string>
+    <string name="deep_widget_image_description">Ảnh Deep Widget</string>
+    <string name="deep_widget_empty_message">Mở Deep Widget để chọn ảnh</string>
+</resources>
