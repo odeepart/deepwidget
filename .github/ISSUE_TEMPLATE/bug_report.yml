@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible Deep Widget problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security issues here. Use a private Security Advisory as described in SECURITY.md.
+        Remove personal photos, device serial numbers and local paths from attachments.
+  - type: input
+    id: version
+    attributes:
+      label: Deep Widget version
+      placeholder: 1.0.2
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device, Android version and launcher
+      placeholder: Samsung device, Android 14, One UI Home
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a non-sensitive sample image when the issue involves image selection.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted logs or screenshots
+      description: Do not include keys, tokens, private images or device serial numbers.

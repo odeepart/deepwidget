@@ -1,0 +1,16 @@
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ttf binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.p12 binary
+*.jks binary
+*.keystore binary

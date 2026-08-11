@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Native mirror of lib/core/theme/deep_widget_colors.dart. -->
+    <color name="deep_widget_background">#FF1A1A1A</color>
+    <color name="deep_widget_text">#FFFFF7F2</color>
+    <color name="deep_widget_primary">#FFFF6D29</color>
+    <color name="deep_widget_empty_surface">#E6151515</color>
+</resources>
