@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  home_widget: ^0.9.3
+  home_widget: ^0.9.4
   image_picker: ^1.2.3
   path: ^1.9.1
   flutter_riverpod: 3.3.1
